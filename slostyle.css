@@ -2,6 +2,12 @@ body{
     background-color: rgb(181, 192, 222);
 }
 
+h2{
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+
 .kazalo{
     color: black;
     font-size: 25px;
