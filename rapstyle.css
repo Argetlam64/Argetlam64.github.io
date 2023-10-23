@@ -57,3 +57,13 @@ figcaption{
     font-size: 23px;
     color: rgb(86, 194, 67);
 }
+
+.name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.back-button{
+    color: rgb(0, 194, 194);
+}
