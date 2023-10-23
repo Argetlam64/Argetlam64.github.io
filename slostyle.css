@@ -8,6 +8,11 @@ h2{
     color: black;
 }
 
+.name{
+    text-align: center;
+    font-size: 25px;
+}
+
 .kazalo{
     color: black;
     font-size: 25px;
