@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color: rgb(0, 194, 194);
+    font-family: serif;
+}
+
+h1{
+    font-family: serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.question{
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(192, 2, 2);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.answer{
+    font-size: 20px;
+}
+
+.qa{
+    background-color: rgb(40, 40, 40);
+    padding-bottom: 10px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 20px;
+    text-align: left;
+    width:95%;
+}
+
+.qa .answerlist{
+    background-color: rgb(40, 40, 40);
+    font-weight: bold;
+}
+
+.legenda{
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    width:50%;
+}
+
+figcaption{
+    color: rgb(144, 144, 144);
+}
+
+.enacba{
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(86, 194, 67);
+}

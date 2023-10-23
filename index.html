@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RAP</title>
+        <link href="./mainstyle.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Regulacije vprašanja in odgovori</h1>
+        <ol>
+            <li id="question1" class="qa">
+                <h3 class="question">Nariši diagram krmilnega sistema z vsemi podrobnosti in ga opiši!</h3>
+                <figure>
+                    <img src="./media/krmilni_sistem_shema.PNG">
+                    <figcaption>Shema krmilnega sistema</figcaption>
+                </figure>
+                <ul class="legenda">
+                    <li><p>Y - Krmilna vrednost</p></li>
+                    <li><p>X - Krmiljena vrednost</p></li>
+                    <li><p>Z - Motnje</p></li>
+                    <li><p>S - Krmilni sistem</p></li>
+                </ul>
+                <p class="answer">Pri krmilnem sistemu krmilna vrednost(Y) krmili krmiljeno vrednost(X).</p>
+                <p class="answer">Krmiljena vrednost(X) ne vpliva na krmilno vrednost(Y)</pc>
+                <p class="answer">Motnje(Z) so zunanji vplivi na krmilni sistem</p>
+            </li>
+            <br>
+            <li id="question2" class="qa">
+                <h3 class="question">Nariši diagram regulacijskega sistema z vsemi elementi in ga opiši.</h3>
+                <figure>
+                    <img src="./media/regulirni_sistem_shema.PNG">
+                    <figcaption>Shema regulirnega sistema</figcaption>
+                </figure>
+                <ul class="legenda">
+                    <li><p>Referenčni člen - Podaja želeno vrednost, ki jo uporabimo za primerjavo</p></li>
+                    <li><p>Primerjalni člen- Primerja merjeno vrednost z želeno vrednostjo</p></li>
+                    <li><p>Regulator - Regulira regulirno veličino Y</p></li>
+                    <li><p>Regulirani sistem - Glede na regulirno veličino Y upravlja regulirano veličino X</p></li>
+                    <li><p>Merilni člen - Meri izhod in ga v obliki merjene vrednosti pošilja primerjalnemu členu za primerjavo</p></li>
+                </ul>
+                <p class="answer">Regulirni sistem je sistem, ki na izhodu meri regulirano veličino, da primerno prilagodi odziv sistema.</p>
+            </li>
+            <br>
+            <li id="question3" class="qa">
+                <h3 class="question">Opiši razliko med krmiljenjem in regulacijo! S čim moramo dopolniti krmilni sistem, da dobimo regulacijskega?</h3>
+                <p class="answer">Krmilni sistem az delovanje potrebuje samo regulirno veličino, glede na katero potem spreminja vrednost regulirane veličine.</p>
+                <p class="answer">Regulirni sistem ima za razliko od krmilnega na koncu merilni člen, ki pošilja merjeno vrednost nazaj primerjalnemu členu. Primerjalni člen primerja merjeno vrednost z željeno vrednostjo iz referenčnega člena in jo pošlje regulatorju, ki ta signal nato spremeni v krmilno vrednost.</p>
+                <p class="answer">To pomeni da moramo krmilnemu sistemu dodati referenčni, primerjalni in merilni člen ter regulator, da imamo regulacijski sistem</p>
+            </li>
+            <br>
+            <li id="question4" class="qa">
+                <h3 class="question">Katere veličine nastopajo v regulirnem sistemu in kako so povezane med seboj? Lahko si pomagaš z diagramom.</h3>
+                <p class="answer">V regulirnem sistemu nastopajo:</p>
+                <ul class="legenda">
+                    <li><p>Xm - Merjena vrednost</p></li>
+                    <li><p>Xž - Željena vrednost</p></li>
+                    <li><p>E - Odstopek, ki ga dobimo z odštevanjem merjene in željene vrednosti </p></li>
+                    <li><p>Y - Regulirna veličina</p></li>
+                    <li><p>X - Regulirana veličina</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question5" class="qa">
+                <h3 class="question">Kakšne vrste vodenja poznamo?</h3>
+                <p class="answer">Poznamo več vrst vodenja:</p>
+                <ul class="answerlist">
+                    <li><p class="answer">Avtomatsko</p></li>
+                    <li><p class="answer">Ročno</p></li>
+                    <li><p class="answer">Kombinirano</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question6" class="qa">
+                <h3 class="question">Napiši vrste regulacij glede na tehnično izvedbo!</h3>
+                <p class="answer">Regulacije glede na tehnično izvedbo delimo na:</p>
+                <ul class="answerlist">
+                    <li><p class="answer">Električne</p></li>
+                    <li><p class="answer">Hidravlične</p></li>
+                    <li><p class="answer">Pnevmatske</p></li>
+                    <li><p class="answer">Mehanske</p></li>
+                    <li><p class="answer">Kombinirane(elektro-mehanske)</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question7" class="qa">
+                <h3 class="question">Kako delimo električne regulacije?</h3>
+                <p class="answer">Električne regulacije delimo na:</p>
+                <ul class="answerlist">
+                    <li><p class="answer"></p>Glede na konstrukcijsko izvedbo</li>
+                    <li><p class="answer">Glede na izvedbo regulatorja in izvršilnega člena</p></li>
+                    <li><p class="answer">Glede na željeno vrednost</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question8" class="qa">
+                <h3 class="question">Kako delimo električne regulacije glede na konstrukcijsko izvedbo?</h3>
+                <p class="answer">Električne regulacije glede na konstrukcijsko izvedbo delimo na:</p>
+                <ul class="answerlist">
+                    <li><p class="answer">Analogne</p></li>
+                    <li><p class="answer">Digitalne</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question9" class="qa">
+                <h3 class="question">Kako delimo električne regulacije glede na izvedbo regulatorja in izvršilnega člena?</h3>
+                <p class="answer">Električne regulacije glede na izvedbo regulatorja in izvršilnega člena delimo na:</p>
+                <ul class="answerlist">
+                    <li><p class="answer">Zvezne</p></li>
+                    <li><p class="answer">Nezvezne</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question10" class="qa">
+                <h3 class="question">Kako delimo električne regulacije glede na želeno vrednost?</h3>
+                <p class="answer">Električne regulacije glede na Želeno vrednost delimo na:</p>
+                <ul class="answerlist">
+                    <li><p class="answer">Sledilne regulacije</p></li>
+                    <li><p class="answer">Časovno programirane regulacije</p></li>
+                    <li><p class="answer">Regulacije s konstantno željeno vrednostjo</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question11" class="qa">
+                <h3 class="question">Opiši statične lastnosti regulacijskega sistema!</h3>
+                <p class="answer">Statične lastnosti regulacijskega sistema so lastnosti, ki se ne spreminajajo. Poznamo:</p>
+                <ul class="answerlist">
+                    <li><p class="answer">Razmerje med izhodom in vhodom</p></li>
+                    <li><p class="answer">Prenosni faktor (K)</p></li>
+                    <li><p class="answer">Merske enote odvisne od enot vhoda in izhoda</p></li>
+                    <li><p class="answer">Predznak</p></li>
+                    <li><p class="answer">Količina prenosnih faktorjev</p></li>
+                    <li><p class="answer">Način povezave blokov</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question12" class="qa">
+                <h3 class="question">Določi prenosni faktor zaporedno povezanih blokov!</h3>
+                <figure>
+                    <img src="./media/zaporedno_vezani_bloki.png" width="500" height="150">
+                    <figcaption>Diagram zaporedno vezanih blokov</figcaption>
+                </figure>
+                <p class="answer">Prenosni faktor se računa z enačbo <span class="enacba">K=K1*K2</span></p>
+            </li>
+            <br>
+            <li id="question13" class="qa">
+                <h3 class="question">Določi prenosni faktor vzporedno povezanih blokov!</h3>
+                <figure>
+                    <img src="./media/vzporedno_vezani_bloki.png" width="400" height="180">
+                    <figcaption>Diagram vzporedno vezanih blokov</figcaption>
+                </figure>
+                <p class="answer">Prenosni faktor se računa z enačbo <span class="enacba">K=K1±K2</span></p>
+            </li>
+            <br>
+            <li id="question14" class="qa">
+                <h3 class="question">Določi prenosni faktor povezave s povratno zvezo!</h3>
+                <figure>
+                    <img src="./media/bloki_z_povrazno_vezavo.png" width="400" height="200">
+                    <figcaption>Diagram blokov z povrazno vezavo</figcaption>
+                </figure>
+                <p class="answer">Prenosni faktor se računa z enačbo <span class="enacba">K=K1/(1±K1*K2)</span></p>
+            </li>
+            <br>
+            <li id="question15" class="qa">
+                <h3 class="question">Kako lahko opišemo dinamične lastnosti reguliranih sistemov!</h3>
+                <p class="answer">Dinamične lastnosti regulirnih sistemov lahko opišemo z:</p>
+                <ul class="answerlist">
+                    <li><p class="answer">Diferencialno enačbo</p></li>
+                    <li><p class="answer">Prenosno funkcijo</p></li>
+                    <li><p class="answer">Prehodno funkcijo</p></li>
+                    <li><p class="answer">Frekvenčnim odzivom</p></li>
+                    <li><p class="answer">Analogno blokovno shemo</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question16" class="qa">
+                <h3 class="question">Nariši in opiši parametre napetostnega impulza v regulacijskem sistemu!</h3>
+                <figure>
+                    <img src="">
+                </figure>
+                <ul class="legenda">
+                    <li><p>Ubase - spodnji nivo</p></li>
+                    <li><p>Utop - zgornji nivo</p></li>
+                    <li><p>Tw - širina impulza</p></li>
+                    <li><p>Tr - čas dviganja impulza</p></li>
+                    <li><p>Tf - čas padanja impulza</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question17" class="qa">
+                <h3 class="question">Nariši in opiši parametre stopničaste spremembe v regulacijskem sistemu!</h3>
+                <figure>
+                    <img src="">
+                </figure>
+                <ul class="legenda">
+                    <li><p>Tr - dvižni čas impulza</p></li>
+                    <li><p>Ym - najvišje odstopanje od končne vrednosti</p></li>
+                    <li><p>To - odzivni čas</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question18" class="qa">
+                <h3 class="question">Kako delimo regulacijske sisteme glede na dinamične lastnosti?</h3>
+                <p class="answer">Regulacijske sisteme glede na dinamične lastnosti delimo na:</p>
+                <ul class="answerlist">
+                    <li><p class="answer">Sistemi ničelnega reda</p></li>
+                    <li><p class="answer">Sistemi prvega reda</p></li>
+                    <li><p class="answer">Sistemi drugega reda</p></li>
+                    <li><p class="answer">Sistemi višjega reda</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question19" class="qa">
+                <h3 class="question">Regulacijski sistem ničelnega reda, bistvene informacije!</h3>
+                <ul class="answerlist">
+                    <li><p class="answer"><span class="enacba">Y(t)=K*X(t)</span></p></li>
+                    <li><p class="answer">Odziv je neposredno povezan z vhodnim signalom</p></li>
+                    <li><p class="answer">Nima dinamičnega vodenja ali časovnega zamika</p></li>
+                    <li><p class="answer">Ne akumulira energije</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question20" class="qa">
+                <h3 class="question">Regulacijski sistem prvega reda, bistvene informacije!</h3>
+                <ul class="answerlist">
+                    <li><p class="answer"><span class="enacba">T*dy/dt+y(t)=k*x(t)</span></p></li>
+                    <li><p class="answer">Ima integriran člen in časovni zamik</p></li>
+                    <li><p class="answer">Lahko akumulira energijo</p></li>
+                    <li><p class="answer">Ne uporablja parametrov sistema</p></li>
+                    <li><p class="answer">Najbolj pogost sistem</p></li>
+                </ul>
+            </li>
+            <br>
+            <li id="question21" class="qa">
+                <h3 class="question">Regulacijski sistem drugega reda, bistvene informacije!</h3>
+                <ul class="answerlist">
+                    <li><p class="answer"><span class="enacba">M*(d^2y)/(dt^2)+D(dy)/(dt)+Ky=Ku(t)</span></p></li>
+                    <li><p class="answer">Uporablja parametre sistema(togost, masa, dušenje)</p></li>
+                    <li><p class="answer">Opisuje odziv na zunanji vpliv</p></li>
+                    <li><p class="answer">Ima lahko do 2 energijski posodi</p></li>
+                </ul>
+            </li>
+            <br>
+        </ol>
+    </body>
+</html>
