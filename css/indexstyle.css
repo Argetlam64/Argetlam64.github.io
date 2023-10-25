@@ -23,16 +23,12 @@ header{
 }
 
 .button{
-    transform: color background-color;
-    transition-duration: 0.3s;
-    display: inline-block;
     width: 450px;
     height: 100px;
-    align-self: center;
     border: 2px solid aqua;
     border-radius: 15px;
-    margin: 20px auto;
     font-size: 40px;
+    margin: 20px 0;
     background-color: black;
     color: aqua;
     font-weight: bold;
@@ -40,6 +36,7 @@ header{
 }
 
 .button:hover{
+    transition-duration: 0.3s;
     color: rgb(255, 255, 255);
     background-color: rgb(85, 177, 177);
     font-size: 41px;
