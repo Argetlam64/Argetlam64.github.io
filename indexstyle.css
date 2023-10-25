@@ -23,7 +23,7 @@ header{
     color:black;
     border: 3px solid black;
     border-radius: 20px;
-    margin-left: 450px;
-    margin-right: 450px;
+    width: 500px;
+    margin: 20px auto;
 }
 

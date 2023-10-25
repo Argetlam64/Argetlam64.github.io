@@ -11,10 +11,10 @@ h2{
 
 .back-button{
     border: 3px solid black;
-    border-radius: 30px;
-    margin-right: 1365px;
-    padding-left: 10px;
+    border-radius: 15px;
+    width: 100px;
     background-color: rgb(181, 192, 222);
+    text-align: center;
 }
 
 .name{
@@ -29,8 +29,8 @@ h2{
     border: 3px solid black;
     border-radius: 30px;
     background-color: rgb(181, 192, 222);
-    margin-left: 500px;
-    margin-right: 500px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .kazalo h2{
@@ -46,9 +46,8 @@ h2{
     border: 3px solid black;
     border-radius: 20px;
     background-color: rgb(181, 192, 222);
-    margin-bottom: 10px;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 700px;
+    margin: 0 auto 10px;
 }
 
 .obdobja h2{
