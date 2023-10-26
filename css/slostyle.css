@@ -10,11 +10,22 @@ h2{
 }
 
 .back-button{
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 15px;
     width: 100px;
-    background-color: rgb(181, 192, 222);
-    text-align: center;
+    height: 50px;
+    background-color: rgb(103, 106, 116);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.back-button:hover{
+    font-size: 28px;
+    color:white;
+    background-color: black;
+    transition-duration: 0.3s;
+    width: 104px;
+    height: 50px;
 }
 
 .name{
