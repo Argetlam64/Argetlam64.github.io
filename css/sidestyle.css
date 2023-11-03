@@ -1,0 +1,94 @@
+body{
+    background-color:rgb(20,20,20);
+    color: rgb(0, 194, 194);
+    font-family: serif;
+}
+
+.name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.subject-name{
+    font-family: serif;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.kazalo{
+    border: 3px solid rgb(0, 194, 194);
+    border-radius: 15px;
+    width: 40%;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: rgb(40,40,40);
+    text-align: center;
+}
+
+.kazalo p{
+    font-size: 25px;
+}
+
+.section{
+    border: 3px solid rgb(0, 194, 194);
+    border-radius: 15px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgb(40,40,40);
+}   
+
+.section h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section .question{
+    font-weight: 700;
+    font-size: 25px;
+    border: 1px solid rgb(115, 115, 115);
+    border-radius: 20px;
+    margin: 30px 0px;
+    padding: 0px 20px;
+}
+
+.section .answer{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.section .legenda{
+    background-color: rgb(202, 202, 202);
+    color: black;
+    width: 50%;
+    border: 3px transparent white;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button{
+    color: rgb(0, 194, 194);
+    background-color: rgb(20, 20, 20);
+    width: 80px;
+    height: 40px;
+    border: 3px solid rgb(0, 194, 194);
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+button:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 255, 255,0.3);
+    font-size: 24px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.top-button {
+    text-align: center;
+}
