@@ -73,6 +73,7 @@ body{
 
 .question h4{
     display: inline;
+    font-size: 25px;
 }
 
 .show-button{
