@@ -39,6 +39,16 @@ body{
     margin-top: 30px;
 }
 
+#aktualno{
+    background-color: red;
+}
+
+#aktualno:hover{
+    background-color: rgb(163, 0, 0);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
 .kazalo button:hover{
     background-color: rgb(158, 158, 158);
     transition-duration: 0.2s;
