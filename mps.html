@@ -11,31 +11,87 @@
             <p class="name">Maj Verhovnik Marovšek</p>
             <h1 class="subject-name">MPS - mikroprocesorski sistemi</h1>
         </div>
-        <br>
-        <div class="kazalo">
-            <h2>Kazalo:</h2>
+        <div class="section">
+            <h1 class="question">Tipi spremenljivk</h1>
+            <div class="answer">
+                <ul>
+                    <li>
+                        <p>Celoštevilske spremenljivke:</p>
+                        <ul>
+                            <li>
+                                <p>Byte (8b = 1B) -> 2^8 [0...255]</p>
+                            </li>
+                            <li>
+                                <p>Int (16b = 2B) -> 2^16 [-2^15...0...+2^15-1]</p>
+                            </li>
+                            <li>
+                                <p>Long (32b = 4B) -> 2^32 [-2^31...0...+2^31-1]</p>
+                            </li>
+                            <li>
+                                <p>Unsigned Int/Long => Samo pozitivna števila</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Decimalne spremenljivke:</p>
+                        <ul>
+                            <li>
+                                <p>Float (32b = 4B) => 2^32</p>
+                            </li>
+                            <li>
+                                <p>Double (64b = 8B) => 2^64</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Logične spremenljivke:</p>
+                        <ul>
+                            <li>
+                                <p>Bool (8b = 1B) => True/False (False = 0, True != 0)</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Znaki:</p>
+                        <ul>
+                            <li>
+                                <p>Char (8b = 1B) => 'a','b',... => ASCII tabela</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <h1 class="question">Array/Nizi</h1>
             <ul>
                 <li>
-                    <p>Vrste spremenljivk</p>
-                </li>
-                <li>
-                    <p>Pogoji, zanke</p>
+                    <p>Definiranje arraya:</p>
                     <ul>
-                        <li><p>If stavek</p></li>
-                        <li><p>While zanka</p></li>
-                        <li><p>For zanka</p></li>
-                        <li><p>Do while zanka</p></li>
-                        <li><p>Casw switch</p></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Serial monitor</p>
-                    <ul>
-                        <li><p>Pisanje na serijski vmesnik</p></li>
-                        <li><p>Branje iz serijskega vmesnika</p></li>
+                        <li>
+                            <p>char CHAR_ARR[20]; => definiramo prazen array, ki ima možnost sprejeti do 20 elementov tipa char.</p>
+                        </li>
+                        <li>
+                            <p>int INT_ARR[20] = {0,1,2}; => naredimo array integerjev, v katerega lahko gre do 20 elementov tipa integer</p>
+                        </li>
+                        <li>
+                            <p>int LOTO = {1,2,3,4,5,6}; => naredimo array integerjev, ki ima 6 prostorov(že poln array)</p>
+                        </li>
                     </ul>
                 </li>
             </ul>
+        </div>
+        <div class="section">
+            <h1 class="question">If stavek</h1>
+        </div>
+        <div class="section">
+            <h1 class="question">Case stavek</h1>
+        </div>
+        <div class="section">
+            <h1 class="question">While zanka</h1>
+        </div>
+        <div class="section">
+            <h1 class="question">For zanka</h1>
         </div>
     </body>
 </html>
