@@ -1,0 +1,383 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+html{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #ebebeb;
+}
+
+header{
+  position: fixed;
+  height: 85px;
+  background-image: linear-gradient(rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0) );
+  width: 100%; 
+  z-index: 100;
+  opacity: 0.9;
+}
+
+header .content{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width:600px) {
+  header .desktop{
+    display: none;
+  }
+
+  header{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+  }
+
+  header .content{
+    width: 100%;
+  }
+
+  header .mobile{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 0px;
+    justify-content: center;
+  }
+
+  header .mobile ul{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header .mobile ul .button{
+    background-color: rgb(157, 194, 10);
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+}
+
+.desktop ul{
+  display: flex;
+  align-items: center;
+  height: 85px;
+}
+
+.desktop li{
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #4A4A4A;
+  font-family: "Roboto-Mono";
+  line-height: 1.6;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  color: #4A4A4A;
+  font-family: "Roboto-Mono-Regular";
+  font-size: 1.5em;
+}
+
+.icon{
+  height: 1em;
+}
+
+.mobile{
+  display: none;
+}
+
+.main-content{
+  position: relative;
+  top: 85px;
+}
+
+@media only screen and (max-width:600px){
+  .main-content{
+    position: relative;
+    top: 4rem;
+  }
+}
+
+.banner{
+  background-image: url("./../images/banner-landingpage.jpg");
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-position: center;
+}
+
+
+
+.banner .content{
+  background-color: rgb(157, 194, 10);
+  margin-left: 100px;
+  color: white;
+  padding: 30px 80px 56px;
+  text-align: center;
+  width: 370px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid #767676;
+  border-radius: 5px;
+}
+
+.cursive{
+  font-family: "Dancing Script";
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.striking{
+  padding: 30px 0px;
+  font-family: "Rubik";
+  font-size: 2.7rem;
+}
+
+@media only screen and (max-width:895px){
+  .banner .content{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin: 0px;
+  }
+
+  .banner .email{
+    display: none;
+  }
+  
+  .banner{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .banner{
+    height: 20rem;
+  }
+}
+
+.email span{
+  font-size: 1.5rem;
+}
+
+.email .button{
+  background-color: #4A4A4A;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #4A4A4A;
+}
+
+.email .button:hover{
+  background-color: #888888;
+  transition: 0.3s;
+  transition-property: all;
+}
+
+#features-section{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.feature{
+  background-color: white;
+  border-radius: 10px;
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature .center{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.feature .center .content{
+  text-align: center;
+}
+
+.image-container{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.feature img{
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.center .content h2{
+  color: #4A4A4A;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-family: "Rubik";
+}
+
+.center .content h3{
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width:600px){
+  #features-section{
+    flex-direction: column;
+    margin: 0rem;
+  }
+  
+  .feature{
+    width: 100%;
+  }
+}
+
+#filters-section{
+  background-color: #565656;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0px;
+  color: white;
+}
+
+#filters-section .content{
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+#filters-section .content h3{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.images-container{
+  display: flex;
+  width:96%;
+}
+
+.images-container .image-container{
+  width: 25%;
+}
+
+.image-container img{
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width:600px){
+  #filters-section .content{
+    width: 80%;
+  }
+
+  #filters-section .content h2{
+    font-weight: 400;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+  }
+
+  #filters-section .content h3{
+    line-height: 2rem;
+    font-weight: 100;
+  }
+
+  .extra{
+    display: none;
+  }
+
+  .images-container{
+    width: 100%;
+  }
+
+  .images-container .image-container{
+    width: 33.3%;
+  }
+}
+
+#quotes-section{
+  font-family: "Palatino-Italic";
+  font-style: italic;
+  color: #4A4A4A;
+  line-height: 1.1;
+  padding: 5rem 0px;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.quote{
+  margin-right: 2rem;
+}
+
+footer{
+  background-color: #888888;
+  color: white;
+  padding: 2rem;
+}
+footer .content{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width:600px){
+
+  #quotes-section{
+    padding: 0px;
+    height: 25rem;
+    background-color: white;
+  }
+
+  #quotes-section .quote{
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin: 2rem auto 1rem;
+    line-height: 3rem;
+  }
+
+  #quotes-section .quote-citation{
+    margin: 2rem auto;
+    display: block;
+    height: 2.5rem;
+  }
+
+  footer{
+    height: 1.5rem;
+  }
+}
