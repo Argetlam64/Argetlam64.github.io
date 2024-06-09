@@ -153,3 +153,9 @@ footer{
     text-shadow: 2px 2px black;
     font-family: "Caveat";
 }
+
+@media only screen and (max-width:600px){
+    html{
+        font-size: 10px;
+    }
+}
