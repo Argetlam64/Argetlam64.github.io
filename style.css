@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --screen-heigth: 260px;
+    --card-heigth: 180px;
+    --card-width: 100px;
+    --card-border-radius: 20px;
+}
+
+#enemy{
+    width: 100%;
+    height: var(--screen-heigth);
+    background-color: rgba(180, 180, 180, 0.502);
+}
+
+#playing-field{
+    width: 100%;
+    height: var(--screen-heigth);
+    background-color: rgba(193, 193, 193, 0.205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#playing-field #card-bucket{
+    height: var(--screen-heigth);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#playing-field #card-bucket .card{
+    position: absolute;
+}
+
+#card-bucket-card-1{
+    margin-left: 20px;
+    margin-top: 30px;
+    transform: rotate(10deg);
+}
+
+#card-bucket-card-2{
+    transform: rotate(-17deg);
+}
+
+#card-bucket-card-3{
+    margin-right: 5px;
+    margin-top: 2px;
+    transform: rotate(0deg);
+}
+
+#player, #enemy{
+    width: 100%;
+    height: var(--screen-heigth);
+    background-color: rgba(99, 99, 99, 0.242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: var(--card-heigth);
+    width: var(--card-width);
+    border-radius: var(--card-border-radius);
+    border: 8px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.open{
+}
+
+.open p{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 40px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.special{
+    background-color: rgb(79, 25, 130);
+}
+
+.special p{
+    padding: 10px 20px;
+}
+
+.player-card:hover{
+    margin-bottom: 50px;
+    transform: rotate(-15deg);
+    z-index: 9000;
+    cursor: pointer;
+}
+
+#card-bucket-card-3:hover{
+    cursor: pointer;
+    background-color: rgb(255, 85, 85);
+}
+
+.closed{
+    background-color: rgb(206, 19, 19);
+}
+
+.closed p{
+    background-color: black;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 40px;
+    border: 5px solid yellow;
+}
+
+
